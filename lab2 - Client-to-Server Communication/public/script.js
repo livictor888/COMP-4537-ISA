@@ -4,7 +4,7 @@ $(document).ready(function () {
 		const message = $('#chatbot-input').val();
 		$.ajax({
 			type: 'POST',
-			url: 'https://lab2-cw70.onrender.com',
+			url: 'https://lab2-cw70.onrender.com/chatbot',
 			//url: 'http://localhost:3000/chatbot',
 			data: {
 				message: message
